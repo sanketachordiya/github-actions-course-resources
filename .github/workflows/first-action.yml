@@ -6,7 +6,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "First Worflow Hello world"
-      - name: Print Goodbye
-        run: echo "Done Bye"
+      - name: Print Multiline Shell Commands 
+        run: |
+            echo "First output"
+            echo "Second output"
       
     
